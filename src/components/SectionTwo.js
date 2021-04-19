@@ -3,21 +3,22 @@ import { IoIosArrowDown } from "react-icons/io";
 
 function SectionTwo() {
   return (
-    <div>
-      <div>
-          <p>Select Currency:</p>
-          <div>
-              <div>
-                <p>AFYA <IoIosArrowDown /></p>
+    <div className="currency">
+
+          <p className="select">Select Currency:</p>
+
+          <div className="flex">
+              <div className="arrow">
+                <p>AFYA <IoIosArrowDown className="white"/></p>
                 <img src="" alt=""/>
               </div>
-              <p>0.00000001</p>
+              <p className="zeros">0.00000001</p>
           </div>
-          <div>
-              <button>Send</button>
-              <button>Receive</button>
+
+          <div className="button-wrapper">
+              <button className="sen">Send</button>
+              <button className="rec">Receive</button>
           </div>
-      </div>
     </div>
   )
 }

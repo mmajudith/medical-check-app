@@ -8,44 +8,44 @@ import { IoStorefrontOutline } from "react-icons/io5";
 
 function Footer() {
   return (
-    <div>
-        <div>
-            <div>
+    <footer>
+        <div className="footer-wrapper">
+            <div className="home">
                 <div>
-                    <ImHome />
+                    <ImHome className="img"/>
                 </div>
                 <p>Home</p>
             </div>
 
             <div>
                 <div>
-                    <FaListAlt />
+                    <FaListAlt className="img"/>
                 </div>
                 <p>Activity</p>
             </div>
 
             <div>
                 <div>
-                    <IoFileTrayFull />
+                    <IoFileTrayFull className="img"/>
                 </div>
                 <p>Wallet</p> 
             </div>
 
             <div>
                 <div>
-                    <IoStorefrontOutline />
+                    <IoStorefrontOutline className="img"/>
                 </div>
                 <p>Market</p>
             </div>
 
             <div>
                 <div>
-                    <FaGift/>
+                    <FaGift className="img"/>
                 </div>
                 <p>Earn</p>
             </div>
         </div>
-    </div>
+    </footer>
   )
 }
 

@@ -20,7 +20,7 @@ function SectionThree() {
 
         <div>
             <div>
-                <img src={Xray} alt=""/>
+                <img src={Xray} alt="xray icon" width="100" height="100"/>
             </div>
             <p>TB Radiology XRay</p>
             <p>A30</p>
