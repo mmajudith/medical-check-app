@@ -5,34 +5,33 @@ import { FaSignal } from "react-icons/fa";
 import { FaBell } from "react-icons/fa"
 import { FaUserCircle } from "react-icons/fa"
 import {  IoIosRibbon } from "react-icons/io";
-//IoIosRibbon
 
 function Header() {
   return (
-    <div>
-      <div>
-          <div>
+    <header>
+      <div className="timeConnect">
+          <div className="time">
               <p>4:02</p>
           </div>
-          <div>
-              <FaSignal />
-              <FaWifi />
-              <FaBatteryFull />
+          <div className="connect">
+              <FaSignal className="marginLeft"/>
+              <FaWifi className="marginLeft"/>
+              <FaBatteryFull className="marginLeft"/>
           </div>
       </div>
 
-      <div>
-          <div>
-                <img src="" alt=""/>
-                <p> <IoIosRibbon />ribbon</p>
+      <div className="menu-wrapper">
+          <div className="logo-wrapper">
+                <IoIosRibbon className="logo"/>
+                <p>ribbon</p>
           </div>
 
-          <div>
-                <FaUserCircle/>
-                <FaBell/>
+          <div className="proNot-wrapper">
+                <FaUserCircle className="user"/>
+                <FaBell className="bell"/>
           </div>
       </div>
-    </div>
+    </header>
   )
 }
 

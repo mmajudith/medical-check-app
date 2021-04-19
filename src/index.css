@@ -1,14 +1,41 @@
+@import "../src/styles/Header.css";
+@import "../src/styles/SectionOne.css";
+@import "../src/styles/SectionTwo.css";
+@import "../src/styles/SectionThree.css";
+@import "../src/styles/Footer.css";
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto","RobotoDraft","Helvetica","Arial","sans-serif";
+  font-weight: 400;
+  font-size: 14px;
+  background-color: hsl(216,5%,19%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  padding: 0;
+  margin: 0;
 }
-/* font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif; */
+
+.App{
+  max-width: 1440px;
+  width: 100%;
+  height: 100%;
+  margin: auto auto;
+}
+
+.circle{
+  width: 60%;
+  height: 100%;
+  margin: 40px auto;
+  border-radius: 50px;
+  border: 1px solid hsl(205,3%,55%);
+}
+
+.container{
+  width: 95%;
+  height: 100%;
+  margin: 0px auto;
+  background-color: #FFF;
+  border-radius: 50px;
+  border: 15px solid hsl(216,5%,19%);
+}
