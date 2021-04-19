@@ -46,3 +46,21 @@
     height: 50px;
     background-color: hsl(0,0%,85%)
 }
+
+
+@media screen and (max-width: 997px){
+    .hivCheck,
+    .XrayCheck,
+    .bloodCheck p{
+    text-align: left;
+    line-height: normal;
+    }
+
+    .hivCheck .img{
+        font-size: 26px;
+    }
+    .img{
+        font-size: 26px;
+    
+    }
+  }

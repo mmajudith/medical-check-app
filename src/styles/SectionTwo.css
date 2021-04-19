@@ -77,3 +77,24 @@
     margin-left: 100px;
     padding: 20px 30px;
 }
+
+@media screen and (max-width: 756px){
+
+    .flex .arrow{
+        width: 30%;
+    }
+    
+    .flex .zeros{
+        width: 70%;
+    }
+    .button-wrapper .sen{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    
+    .button-wrapper .rec{
+        margin-left: 50px;
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+  }

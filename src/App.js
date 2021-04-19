@@ -3,6 +3,9 @@ import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
 import SectionThree from './components/SectionThree';
 import Footer from './components/Footer';
+import { Route, Switch } from 'react-router-dom';
+import Notification from './menuCompont/Notification';
+import Profile from './menuCompont/Profile'
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
         </div>
       </div>
 
+        <Route exact path="/notification" component={Notification }/>
+        <Route exact path="/profile" component={Profile} />
     </div>
   );
 }

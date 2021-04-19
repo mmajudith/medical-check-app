@@ -79,3 +79,36 @@ header{
     margin-bottom: 10px;
     color: hsl(352,95%,58%)
 }
+
+@media screen and (max-width: 756px){
+    .speak{
+        width: 40%;
+        height: 40px;
+        top: -15px;
+    }
+    .speak .ci{
+        width: 30px;
+        height: 4px;
+    }
+    
+    .speak .dot{
+        width: 8px;
+        height: 8px;
+    }
+
+    .timeConnect,.menu-wrapper{
+        font-size: 16px;
+    }
+
+    .logo-wrapper{
+        font-size: 30px;
+    }
+    
+    .proNot-wrapper .user{
+        font-size: 30px;
+    }
+    
+    .proNot-wrapper .bell{
+        font-size: 15px;
+    }
+  }

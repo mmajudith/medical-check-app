@@ -5,6 +5,7 @@ import { FaSignal } from "react-icons/fa";
 import { FaBell } from "react-icons/fa"
 import { FaUserCircle } from "react-icons/fa"
 import {  IoIosRibbon } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -31,8 +32,8 @@ function Header() {
           </div>
 
           <div className="proNot-wrapper">
-                <FaUserCircle className="user"/>
-                <FaBell className="bell"/>
+                <Link to="/notification"><FaUserCircle className="user"/></Link>
+                <Link to="/profile"><FaBell className="bell"/></Link>
           </div>
       </div>
     </header>

@@ -17,7 +17,7 @@
 }
 
 .bal,.equ{
-    width: 40%;
+    width: 50%;
     height: 100%;
     margin: 20px auto;
     text-align: center;
@@ -57,7 +57,26 @@
 }
 
 .cur .line{
-    width: 10%;
-    height: 100%;
-    background-color: gray;
+    width: 1px;
+    height: 150px;
+    padding-top: 10px;
+    background-color: hsl(0,0%,85%);
 }
+
+@media screen and (max-width: 756px){
+    .red,.green{
+        width: 40px;
+        height: 30px;
+       
+    }
+    .pri{
+        font-size: 24px;
+        color: #FFF;
+        margin: 5px 0px 20px 0px;
+    }
+    
+    .tol{
+        color: whitesmoke;
+        font-weight: 700;
+    }
+  }

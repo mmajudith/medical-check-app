@@ -20,15 +20,15 @@ function SectionThree() {
 
         <div className="XrayCheck">
             <div>
-                <img src={Xray} alt="xray icon" width="50" height="50"/>
+                <img src={Xray} alt="xray icon" width="50" height="50" className="img"/>
             </div>
             <p>TB Radiology XRay</p>
             <p>A30</p>
         </div>
 
         <div className="bloodCheck">
-            <div className="img">
-                <img src={BloodCheck} alt="blood check icon" width="50" height="50"/>
+            <div>
+                <img src={BloodCheck} alt="blood check icon" width="50" height="50" className="img"/>
             </div>
             <p>Blood Pressure Check</p>
             <p>A10</p>

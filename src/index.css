@@ -39,3 +39,27 @@ body {
   border-radius: 50px;
   border: 15px solid hsl(216,5%,19%);
 }
+
+@media screen and (max-width: 997px){
+  .circle{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 756px){
+  .circle{
+    width: 80%;
+    height: 100%;
+    margin: 40px auto;
+    border-radius: 50px;
+    border: 1px solid hsl(205,3%,55%);
+  }
+  .container{
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: #FFF;
+    border-radius: 50px;
+    border: 15px solid hsl(216,5%,19%);
+  }
+}
