@@ -17,7 +17,7 @@
 }
 
 .bal,.equ{
-    width: 50%;
+    width: 40%;
     height: 100%;
     margin: 20px auto;
     text-align: center;
@@ -54,4 +54,10 @@
 .tol{
     color: whitesmoke;
     font-weight: 700;
+}
+
+.cur .line{
+    width: 10%;
+    height: 100%;
+    background-color: gray;
 }

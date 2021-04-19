@@ -9,6 +9,10 @@ import {  IoIosRibbon } from "react-icons/io";
 function Header() {
   return (
     <header>
+      <div className="speak">
+        <div className="ci"></div>
+        <div className="dot"></div>
+      </div>
       <div className="timeConnect">
           <div className="time">
               <p>4:02</p>
