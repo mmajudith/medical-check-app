@@ -11,7 +11,7 @@ function SectionOne() {
             <p className="pri">143.00</p>
             <p className="tol">balance</p>
           </div>
-
+          <div className="line"></div>
           <div className="equ">
             <div className="green">
               <p >ZAR</p>

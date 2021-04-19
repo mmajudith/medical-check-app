@@ -1,0 +1,48 @@
+.check-wrapper{
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    background-color: hsl(0,0%,85%);
+}
+
+.check-wrapper .reAct{
+    padding: 20px 0px 10px 5px;
+    color: snow;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.hivCheck,
+.XrayCheck,
+.bloodCheck{
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FFF;
+    margin-bottom: 2px;
+    color:hsl(0,0%,44%);
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+
+.hivCheck .img{
+    font-size: 36px;
+    color: hsl(2,87%,51%);
+}
+
+.hivCheck,
+.XrayCheck,
+.bloodCheck p{
+    text-align: left;
+    line-height: 25px;
+}
+
+.span{
+    width: 100%;
+    height: 50px;
+    background-color: hsl(0,0%,85%)
+}

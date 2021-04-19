@@ -5,7 +5,7 @@
 }
 
 .select{
-    background-color: gainsboro;
+    background-color: hsl(0,0%,95%);
     padding: 20px 0px 5px 5px;
     color: deepskyblue;
     font-weight: 600;
@@ -26,13 +26,13 @@
 
 .flex .arrow{
     width: 20%;
-    background-color: hsl(205,3%,55%);
+    background-color: hsl(0,0%,85%);
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
 
  .flex .arrow p{
-    color: hsl(216,5%,19%);
+    color:hsl(0,0%,49%);
     font-weight: 600;
     margin: 10px 10px 0px 10px;
 }
@@ -44,8 +44,8 @@
 .flex .zeros{
     width: 80%;
     text-align: left;
-    background-color:gainsboro ;
-    color: hsl(205,3%,55%);
+    background-color: hsl(0,0%,95%) ;
+    color: hsl(0,0%,62%);
     font-weight: 600;
     font-size: 16px;
     padding: 10px;

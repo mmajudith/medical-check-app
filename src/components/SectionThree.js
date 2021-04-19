@@ -6,11 +6,11 @@ import Xray from "../images/chest_x-ray.svg"
 
 function SectionThree() {
   return (
-    <div>
-        <p>Recent Activity</p>
+    <div className="check-wrapper">
+        <p className="reAct">Recent Activity</p>
 
-        <div>
-            <div>
+        <div className="hivCheck">
+            <div className="img">
                 <FaRibbon />
                 <FaDotCircle />
             </div>
@@ -18,21 +18,23 @@ function SectionThree() {
             <p>A100</p>
         </div>
 
-        <div>
+        <div className="XrayCheck">
             <div>
-                <img src={Xray} alt="xray icon" width="100" height="100"/>
+                <img src={Xray} alt="xray icon" width="50" height="50"/>
             </div>
             <p>TB Radiology XRay</p>
             <p>A30</p>
         </div>
 
-        <div>
-            <div>
-                <img src={BloodCheck} alt=""/>
+        <div className="bloodCheck">
+            <div className="img">
+                <img src={BloodCheck} alt="blood check icon" width="50" height="50"/>
             </div>
             <p>Blood Pressure Check</p>
             <p>A10</p>
         </div>
+
+        <div className="span"></div>
     </div>
   )
 }
