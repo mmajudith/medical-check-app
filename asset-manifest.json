@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/medical-check-app/static/css/main.82b2dc38.chunk.css",
-    "main.js": "/medical-check-app/static/js/main.15eb78a1.chunk.js",
-    "main.js.map": "/medical-check-app/static/js/main.15eb78a1.chunk.js.map",
+    "main.css": "/medical-check-app/static/css/main.abf47984.chunk.css",
+    "main.js": "/medical-check-app/static/js/main.485871f9.chunk.js",
+    "main.js.map": "/medical-check-app/static/js/main.485871f9.chunk.js.map",
     "runtime-main.js": "/medical-check-app/static/js/runtime-main.e92073d1.js",
     "runtime-main.js.map": "/medical-check-app/static/js/runtime-main.e92073d1.js.map",
     "static/js/2.6ad799b7.chunk.js": "/medical-check-app/static/js/2.6ad799b7.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.0b0277d5.chunk.js": "/medical-check-app/static/js/3.0b0277d5.chunk.js",
     "static/js/3.0b0277d5.chunk.js.map": "/medical-check-app/static/js/3.0b0277d5.chunk.js.map",
     "index.html": "/medical-check-app/index.html",
-    "static/css/main.82b2dc38.chunk.css.map": "/medical-check-app/static/css/main.82b2dc38.chunk.css.map",
+    "static/css/main.abf47984.chunk.css.map": "/medical-check-app/static/css/main.abf47984.chunk.css.map",
     "static/js/2.6ad799b7.chunk.js.LICENSE.txt": "/medical-check-app/static/js/2.6ad799b7.chunk.js.LICENSE.txt",
     "static/media/chest_x-ray.e825d10f.svg": "/medical-check-app/static/media/chest_x-ray.e825d10f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e92073d1.js",
     "static/js/2.6ad799b7.chunk.js",
-    "static/css/main.82b2dc38.chunk.css",
-    "static/js/main.15eb78a1.chunk.js"
+    "static/css/main.abf47984.chunk.css",
+    "static/js/main.485871f9.chunk.js"
   ]
 }
